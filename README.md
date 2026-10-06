@@ -8,11 +8,13 @@ Site statique, un seul fichier (`index.html`, autonome, fonctionne hors ligne un
 3. Build command : vide · Publish directory : `.` → *Deploy*.
 
 ## Envoi des fiches
-Chaque fiche est envoyée via FormSubmit à :
-- alessandro.donati@sgariboldi.it (destinataire)
-- france@sgariboldi.it, federica.barbarotto@sgariboldi.it (copie)
+Chaque fiche est envoyée à Netlify Forms (formulaire « sommet-elevage-2026 », déclaré dans `__forms.html`).
+Les fiches sont visibles dans Netlify → *Forms*, et une notification e-mail est envoyée à :
+- alessandro.donati@sgariboldi.it
+- france@sgariboldi.it
+- federica.barbarotto@sgariboldi.it
 
-**Activation (une seule fois)** : après déploiement, remplir une fiche test. FormSubmit envoie un e-mail d'activation à alessandro.donati@sgariboldi.it — cliquer le lien. Les fiches suivantes arrivent ensuite normalement.
+Les destinataires se gèrent dans Netlify → *Project configuration > Notifications > Emails and webhooks > Form submission notifications*.
 
 ## Sur le salon
 - Sans réseau : les fiches sont stockées sur la tablette et renvoyées automatiquement au retour de la connexion (bouton « Renvoyer en attente » en bas de page).
